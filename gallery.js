@@ -1,6 +1,7 @@
 $(window).on('load', function() {
     $('.loader').fadeOut();
     $('.content').fadeIn();
+    $(".content").addClass('visible');
 
     let currentIndex = 0;
     const images = $('.gallery-image');
