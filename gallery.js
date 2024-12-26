@@ -1,10 +1,7 @@
 $(window).on('load', function() {
     $('.loader').fadeOut();
     $('.content').fadeIn();
-});
 
-
-$(document).ready(function() {
     let currentIndex = 0;
     const images = $('.gallery-image');
     const imageCount = images.length;
