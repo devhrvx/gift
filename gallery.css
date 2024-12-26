@@ -43,6 +43,13 @@ body {
     display: none;
 }
 
+.content.visible {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 /* HTML: <div class="loader"></div> */
 .loader {
     width: 60px;
