@@ -1,0 +1,39 @@
+body {
+    min-height: 90vh;
+    background-color: rgb(254, 220, 177);
+    font-family: "Cedarville Cursive", serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar {
+    width: 1vh; /* Width of the scrollbar */
+}
+
+/* Scrollbar handle */
+::-webkit-scrollbar-thumb {
+    background-color: #d2c980; /* Color of the scrollbar */
+    border-radius: 10px; /* Round corners */
+}
+
+/* Scrollbar when hovered */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #e2d788; /* Darker color when hovering */
+}
+
+/* Scrollbar track (background) */
+::-webkit-scrollbar-track {
+    background: none; /* Light color for the scrollbar track */
+    border-radius: 8px; /* Round corners */
+}
+
+.container {
+    width: 95%;
+    height: 50vh;
+    border: #d2c980 2px solid;
+    border-radius: 8px;
+} 
