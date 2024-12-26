@@ -74,6 +74,6 @@ body {
     100% {transform:scale(var(--s,1)) translate(0px)   perspective(150px) rotateX(-180deg)}
   }
   @keyframes l10-2 {
-    0%  {background:#514b82;border-radius: 0}
-    50% {background:#25b09b;border-radius: 100px 0 0 100px}
+    0%  {background:#097969;border-radius: 0}
+    50% {background:#CF9FFF;border-radius: 100px 0 0 100px}
   }
